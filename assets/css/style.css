@@ -272,7 +272,14 @@ h6 {
   border-bottom: 3px solid #149ddd;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 830px) {
+  #hero {
+    background:url(../img/my3.jpg);
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 500px) {
   #hero {
     background:url(../img/my.jpg);
     background-repeat: no-repeat;
