@@ -272,9 +272,10 @@ h6 {
   border-bottom: 3px solid #149ddd;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 450px) {
   #hero {
-    background-attachment: fixed;
+    background:url(../img/my.jpg);
+    background-repeat: no-repeat;
   }
 }
 
@@ -323,7 +324,7 @@ section {
   width: 50px;
   height: 3px;
   background: #149ddd;
-  bottom: 18px;
+  bottom: 12px;
   left: 575px;
 }
 
