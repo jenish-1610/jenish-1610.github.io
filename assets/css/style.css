@@ -283,7 +283,7 @@ h6 {
   #hero {
     background:url(../img/my.jpg);
     background-repeat: no-repeat;
-  }
+  } 
 }
 
 @media (max-width: 768px) {
@@ -324,7 +324,7 @@ section {
   color: #173b6c;
 }
 
-.section-title h2::after {
+/* .section-title h2::after {
   content: "";
   position: absolute;
   display: block;
@@ -333,7 +333,7 @@ section {
   background: #149ddd;
   bottom: 12px;
   left: 575px;
-}
+} */
 
 .section-title p {
   margin-bottom: 0;
